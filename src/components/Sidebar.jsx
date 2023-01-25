@@ -6,9 +6,10 @@ import {FiUsers, FiSettings} from "react-icons/fi";
 import {BsBarChartLine, BsFlag} from "react-icons/bs";
 import {RxEnvelopeOpen} from "react-icons/rx";
 
+
 function Sidebar() {
   return (
-    <div className='w-[20%] h-[90vh]'>
+    <div className='w-[20%] md:w-[90%] h-[90vh] md:h-[45vh]'>
         <div className='space-y-5 pl-5'>
             <h1 className='text-[#12477E] font-bold text-[40px] text-left'>RETRO</h1>
             <div className='flex flex-col justify-start items-start'>

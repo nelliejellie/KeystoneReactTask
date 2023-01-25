@@ -18,7 +18,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className='flex flex-row border border-[#AEB7BE] rounded-md'>
+    <div className='flex flex-row md:flex-col  md:justify-between md:border-none border border-[#AEB7BE] rounded-md'>
       <Sidebar/>
       <Routes>
         <Route path='/' element={<Dashboard/>}/>

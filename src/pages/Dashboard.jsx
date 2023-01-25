@@ -2,6 +2,8 @@ import React from 'react'
 import {AiOutlineSearch} from "react-icons/ai"
 import {BiPlus} from "react-icons/bi"
 import profile from "../assets/profile.png"
+import {BsThreeDots} from "react-icons/bs"
+import guy from "../assets/guyjpg.jpg"
 
 function Dashboard() {
   return (
@@ -52,8 +54,69 @@ function Dashboard() {
             <div className='w-[30%] h-[30vh] bg-white'>
 
             </div>
-            <div className='w-[70%] h-[30vh] bg-white'>
-
+            <div className='w-[70%] h-[35vh] bg-white px-8 p-2'>
+                <div className='flex flex-row justify-between'>
+                    <p className='text-sm text-gray-400'>Latest Added Products</p>
+                    <BsThreeDots />
+                </div>
+                
+                <div className='flex flex-row justify-between mt-6'>
+                    <img src={guy} alt="" className='w-7 h-7'/>
+                    <div className='flex flex-col items-start'>
+                        <p className='text-sm font-bold'>PSG Stadium 20/21</p>
+                        <small className='text-gray-400 text-xm'>3 Variants</small>
+                    </div>
+                    <div>
+                        <p className='text-sm'><span className='text-gray-400'>SKU:</span>8600844</p>
+                    </div>
+                    <div>
+                        <p className='text-sm'>Jerseys</p>
+                    </div>
+                    <div>
+                        <p className='text-sm'>12/11/2020</p>
+                    </div>
+                    <div className=''>
+                        <p className='text-sm text-[#78D4D1] bg-[#EAF7F7] px-1 rounded-full'>published</p>
+                    </div>
+                </div>
+                <div className='flex flex-row justify-between mt-6'>
+                    <img src={guy} alt="" className='w-7 h-7'/>
+                    <div className='flex flex-col items-start'>
+                        <p className='text-sm font-bold'>PSG Stadium 20/21</p>
+                        <small className='text-gray-400 text-xm'>3 Variants</small>
+                    </div>
+                    <div>
+                        <p className='text-sm'><span className='text-gray-400'>SKU:</span>8600844</p>
+                    </div>
+                    <div>
+                        <p className='text-sm'>Jerseys</p>
+                    </div>
+                    <div>
+                        <p className='text-sm'>12/11/2020</p>
+                    </div>
+                    <div className=''>
+                        <p className='text-sm text-[#FDC2B0] bg-[#FFF2EE] px-1 rounded-full'>pending</p>
+                    </div>
+                </div>
+                <div className='flex flex-row justify-between mt-6'>
+                    <img src={guy} alt="" className='w-7 h-7'/>
+                    <div className='flex flex-col items-start'>
+                        <p className='text-sm font-bold'>PSG Stadium 20/21</p>
+                        {/* <small className='text-gray-400 text-xm'>3 Variants</small> */}
+                    </div>
+                    <div>
+                        <p className='text-xm'><span className='text-gray-400'>SKU:</span>8600844</p>
+                    </div>
+                    <div>
+                        <p className='text-xm'>Jerseys</p>
+                    </div>
+                    <div>
+                        <p className='text-xm'>12/11/2020</p>
+                    </div>
+                    <div className=''>
+                        <p className='text-sm text-[#78D4D1] bg-[#EAF7F7] px-1 rounded-full'>published</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -21,7 +21,7 @@ function App() {
     <div className='flex flex-row border border-[#AEB7BE] rounded-md'>
       <Sidebar/>
       <Routes>
-        <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/' element={<Dashboard/>}/>
         <Route path='/products' element={<Products/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/transaction' element={<Transaction/>}/>

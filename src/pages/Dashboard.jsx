@@ -34,20 +34,55 @@ function Dashboard() {
             
         </div>
         <div className='flex flex-row space-x-2'>
-            <div className='h-[15vh] bg-[#436DD9] w-[15vw] rounded-md'>
+            <div className='h-[15vh] bg-[#436DD9] w-[15vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+                <div className='w-[80%]'>
+                    <p className='text-white text-left text-sm'>Daily income</p>
+                </div>
+                <div className='flex justify-between  w-[80%]'>
+                    <p className='text-white'> $ 385</p>
+                    <p className='text-white'> $ 385</p>
 
+                </div>
             </div>
-            <div className='h-[15vh] bg-white w-[15vw] rounded-md'>
+            <div className='h-[15vh] bg-white w-[15vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+                <div className='w-[80%]'>
+                    <p className='text-gray-500 text-left text-sm'>Daily income</p>
+                </div>
+                <div className='flex justify-between  w-[80%]'>
+                    <p className='text-gray-500'> $ 385</p>
+                    <p className='text-gray-500'> $ 385</p>
 
+                </div>
             </div>
-            <div className='h-[15vh] bg-white w-[15vw] rounded-md'>
+            <div className='h-[15vh] bg-white w-[15vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+                <div className='w-[80%]'>
+                    <p className='text-gray-500 text-left text-sm'>Daily income</p>
+                </div>
+                <div className='flex justify-between  w-[80%]'>
+                    <p className='text-gray-500'> $ 385</p>
+                    <p className='text-gray-500'> $ 385</p>
 
+                </div>
             </div>
-            <div className='h-[15vh] bg-white w-[15vw] rounded-md'>
+            <div className='h-[15vh] bg-white w-[15vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+                <div className='w-[80%]'>
+                    <p className='text-gray-500 text-left text-sm'>Daily income</p>
+                </div>
+                <div className='flex justify-between  w-[80%]'>
+                    <p className='text-gray-500'> $ 385</p>
+                    <p className='text-gray-500'> $ 385</p>
 
+                </div>
             </div>
-            <div className='h-[15vh] bg-white w-[15vw] rounded-md'>
+            <div className='h-[15vh] bg-white w-[15vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+                <div className='w-[80%]'>
+                    <p className='text-gray-500 text-left text-sm'>Daily income</p>
+                </div>
+                <div className='flex justify-between  w-[80%]'>
+                    <p className='text-gray-500'> $ 385</p>
+                    <p className='text-gray-500'> $ 385</p>
 
+                </div>
             </div>
         </div>
         <div className='flex flex-row space-x-2'>

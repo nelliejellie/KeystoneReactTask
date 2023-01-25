@@ -14,7 +14,7 @@ function Sidebar() {
             <div className='flex flex-col justify-start items-start'>
                 <div className='flex flex-row w-[160px] space-x-2 items-center px-3 py-1 hover:bg-[#EDEFFA] hover:rounded-tr-md hover:rounded-br-md hover:rounded-bl-md '>
                     <AiOutlineLineChart className="text-[#AEB7BE]"/>
-                    <Link to={"dashboard"} className="text-[#AEB7BE] hover:text-[#3B78DE] hover:font-semibold">dashboard</Link>
+                    <Link to={"/"} className="text-[#AEB7BE] hover:text-[#3B78DE] hover:font-semibold">dashboard</Link>
                 </div>
                 <div className='flex flex-row w-[160px] space-x-2 items-center px-3 py-1 hover:bg-[#EDEFFA] hover:rounded-tr-md hover:rounded-br-md hover:rounded-bl-md'>
                     <BiBox className="text-[#AEB7BE]"/>

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Reports() {
   return (
-    <div>Welcome to Reports</div>
+    <div className='flex justify-center items-center w-full font-bold text-2xl'>
+      Reports Coming soon 😉
+    </div>
   )
 }
 

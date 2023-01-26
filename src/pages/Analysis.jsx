@@ -2,7 +2,9 @@ import React from 'react'
 
 function Analysis() {
   return (
-    <div>Welcome to Analysis</div>
+    <div className='flex justify-center items-center w-full font-bold text-2xl'>
+      <p>Analysis Coming soon 😉</p>
+    </div>
   )
 }
 

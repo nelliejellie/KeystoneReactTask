@@ -2,7 +2,9 @@ import React from 'react'
 
 function Users() {
   return (
-    <div>Welcome to Users</div>
+    <div className='flex justify-center items-center w-full font-bold text-2xl'>
+      Users Coming soon 😉
+    </div>
   )
 }
 

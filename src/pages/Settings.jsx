@@ -2,7 +2,9 @@ import React from 'react'
 
 function Settings() {
   return (
-    <div>Welcome to Settings</div>
+    <div className='flex justify-center items-center w-full font-bold text-2xl'>
+      Settings Coming soon 😉
+    </div>
   )
 }
 

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Investments() {
   return (
-    <div>Investments</div>
+    <div className='flex justify-center items-center w-full font-bold text-2xl'>
+      Investments Coming soon 😉
+    </div>
   )
 }
 

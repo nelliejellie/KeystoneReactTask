@@ -2,7 +2,9 @@ import React from 'react'
 
 function Products() {
   return (
-    <div>Welcome to Products</div>
+    <div className='flex justify-center items-center w-full font-bold text-2xl'>
+      Products Coming soon 😉
+    </div>
   )
 }
 

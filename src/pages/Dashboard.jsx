@@ -17,7 +17,7 @@ function Dashboard() {
     <div className='w-[80%] md:w-[100%] bg-[#F4F8FC] h-[90vh] md:h-full rounded-tl-xl p-4 space-y-3'>
         <div className='flex flex-row justify-between'>
             <div className='flex flex-row justify-between bg-[#EAEEF4] w-[20%] h-[30px] items-center p-1 px-2 rounded-md'>
-                <input  placeholder='Search...' className='pl-2 bg-[#EAEEF4] w-[90%]'/>
+                <input  placeholder='Search...' className='pl-2 bg-[#EAEEF4] w-[90%] outline-0'/>
                 <AiOutlineSearch className="text-[#AEB7BE]"/>
             </div>
             <div className='flex flex-row items-center space-x-2'>
@@ -43,7 +43,7 @@ function Dashboard() {
             </div>
         </div>
         <div className='flex flex-row  md:flex-col  md:space-y-3 space-x-2 md:space-x-0'>
-            <div className='h-[15vh] bg-[#436DD9] w-[15vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+            <div className='h-[15vh] bg-[#436DD9] w-[20vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
                 <div className='w-[80%]'>
                     <p className='text-white text-left text-sm'>Daily Income</p>
                 </div>
@@ -52,7 +52,7 @@ function Dashboard() {
                     <img src={blueChart}/>
                 </div>
             </div>
-            <div className='h-[15vh] bg-white w-[15vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+            <div className='h-[15vh] bg-white w-[20vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
                 <div className='w-[80%]'>
                     <p className='text-gray-500 text-left text-sm'>Daily Expense</p>
                 </div>
@@ -61,7 +61,7 @@ function Dashboard() {
                     <img src={pinkChart} alt=""/>
                 </div>
             </div>
-            <div className='h-[15vh] bg-white w-[15vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+            <div className='h-[15vh] bg-white w-[20vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
                 <div className='w-[80%]'>
                     <p className='text-gray-500 text-left text-sm'>Weekly Expense</p>
                 </div>
@@ -70,7 +70,7 @@ function Dashboard() {
                     <img src={thirdChart} alt=""/>
                 </div>
             </div>
-            <div className='h-[15vh] bg-white w-[15vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
+            <div className='h-[15vh] bg-white w-[20vw] md:w-[76vw] rounded-md flex flex-col space-y-4 justify-center px-3'>
                 <div className='w-[80%]'>
                     <p className='text-gray-500 text-left text-sm'>Daily income</p>
                 </div>
@@ -82,14 +82,14 @@ function Dashboard() {
             
         </div>
         <div className='flex flex-row md:flex-col md:space-y-2 space-x-2 md:hidden'>
-            <div className='w-[30%] md:w-[99%] h-[35vh] bg-white space-y-10'>
-                <p className='text-left ml-3 mt-4 text-gray-500'>Top selling Categories</p>
+            <div className='w-[30%] md:w-[99%] h-[30vh] bg-white space-y-10 mb-4'>
+                <p className='text-left ml-3 mt-4 text-gray-500 absolute'>Top selling Categories</p>
                 <div className='flex justify-center'>
                     <img src={radar} alt="" />
                 </div>
                 
             </div>
-            <div className='w-[70%] h-[35vh] bg-white px-8 p-2'>
+            <div className='w-[70%] h-[30vh] bg-white px-8 p-2'>
                 <div className='flex flex-row justify-between'>
                     <p className='text-sm text-gray-400'>Latest Added Products</p>
                     <BsThreeDots />
@@ -114,7 +114,7 @@ function Dashboard() {
                         <p className='text-sm text-[#78D4D1] bg-[#EAF7F7] px-1 rounded-full'>published</p>
                     </div>
                 </div>
-                <div className='flex flex-row justify-between mt-6'>
+                <div className='flex flex-row justify-between mt-4'>
                     <img src={guy} alt="" className='w-7 h-7'/>
                     <div className='flex flex-col items-start'>
                         <p className='text-sm font-bold'>PSG Stadium 20/21</p>
@@ -133,7 +133,7 @@ function Dashboard() {
                         <p className='text-sm text-[#FDC2B0] bg-[#FFF2EE] px-1 rounded-full'>pending</p>
                     </div>
                 </div>
-                <div className='flex flex-row justify-between mt-6'>
+                <div className='flex flex-row justify-between mt-4'>
                     <img src={guy} alt="" className='w-7 h-7'/>
                     <div className='flex flex-col items-start'>
                         <p className='text-sm font-bold'>PSG Stadium 20/21</p>
